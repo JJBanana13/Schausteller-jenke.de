@@ -33,11 +33,14 @@
     "embla-carousel": "^8.3.0",
     "embla-carousel-vue": "^8.3.0",
     "lucide-vue-next": "^0.452.0",
+    "oh-vue-icons": "^1.0.0-rc3",
+    "primeicons": "^7.0.0",
     "radix-vue": "^1.9.7",
     "tailwind-merge": "^2.5.3",
     "tailwindcss-animate": "^1.0.7",
     "vee-validate": "^4.13.2",
     "vue": "^3.5.12",
+    "vue-router": "^4.5.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {

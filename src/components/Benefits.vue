@@ -19,27 +19,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "blocks",
-    title: "Build Brand Trust",
+    title: "Vertrauen in Ihre Marke stärken",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Unsere Fachkompetenz und termingerechte Lieferungen sorgen für zufriedene Kunden und langfristige Partnerschaften.",
   },
   {
     icon: "lineChart",
-    title: "More Leads",
+    title: "Mehr Aufträge & Kunden gewinnen",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Durch optimierte Logistikprozesse helfen wir Ihnen, neue Märkte zu erschließen und Ihren Kundenstamm auszubauen.",
   },
   {
     icon: "wallet",
-    title: "Higher Conversions",
+    title: "Höhere Effizienz & Rentabilität",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Wir reduzieren Transportkosten und steigern die Effizienz durch intelligente Routenplanung und moderne Technik.",
   },
   {
     icon: "sparkle",
-    title: "Test Marketing Ideas",
+    title: "Neue Transportstrategien testen",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Innovative Lösungen für komplexe Schwertransporte – wir entwickeln individuelle Konzepte für Ihre Anforderungen.",
   },
 ];
 
@@ -68,15 +68,13 @@ const iconMap: Record<
   >
     <div class="grid lg:grid-cols-2 place-items-center lg:gap-24">
       <div>
-        <h2 class="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+        <h2 class="text-lg text-primary mb-2 tracking-wider">Vorteile</h2>
 
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
-          Your Shortcut to Success
+          Ihr Schlüssel zum Erfolg in der Schwerlastlogistik
         </h2>
         <p class="text-xl text-muted-foreground mb-8">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
-          reprehenderit architecto rerum similique facere odit deleniti
-          necessitatibus quo quae.
+          Schwerlastlogistik.eu steht für sichere, effiziente und maßgeschneiderte Schwertransporte. Wir bringen Ihre Güter zuverlässig ans Ziel – mit innovativen Lösungen und erstklassigem Service.
         </p>
       </div>
 

@@ -14,33 +14,15 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free Shadcn/Vue template.",
+    question: "Welche Transportlösungen bietet Schwerlastlogistik.eu an?",
+    answer: "Wir bieten spezialisierte Lösungen für Schwer- und Spezialtransporte, einschließlich maßgeschneiderter Logistikkonzepte für übergroße und schwere Güter.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Kann ich eine individuelle Transportberatung erhalten?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Ja! Unser Expertenteam steht Ihnen zur Verfügung, um individuelle Transportlösungen zu entwickeln und den gesamten Ablauf effizient zu gestalten.",
     value: "item-2",
-  },
-  {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
-    value: "item-3",
-  },
-  {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-    value: "item-4",
-  },
-  {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
-    value: "item-5",
   },
 ];
 </script>
@@ -74,18 +56,5 @@ const FAQList: FAQProps[] = [
       </AccordionItem>
     </Accordion>
 
-    <h3 class="font-medium mt-4">
-      Still have questions?
-      <a
-        href="#"
-        class="text-muted-foreground"
-      >
-        <a
-          href="#"
-          class="underline"
-          >Contact us</a
-        >
-      </a>
-    </h3>
   </section>
 </template>

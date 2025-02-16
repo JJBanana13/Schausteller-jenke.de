@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { Marquee } from "@selemondev/vue3-marquee";
 import "@selemondev/vue3-marquee/dist/style.css";
+import 'primeicons/primeicons.css'
 
 import {
   Crown,
@@ -19,32 +20,20 @@ interface sponsorsProps {
 
 const sponsors: sponsorsProps[] = [
   {
-    icon: "crown",
-    name: "Acmebrand",
+    icon: "cookie",
+    name: "zero-Two",
   },
   {
     icon: "vegan",
-    name: "Acmelogo",
+    name: "Mr.Hello",
   },
   {
     icon: "ghost",
-    name: "Acmesponsor",
+    name: "JJBanana13",
   },
   {
     icon: "puzzle",
-    name: "Acmeipsum",
-  },
-  {
-    icon: "squirrel",
-    name: "Acme",
-  },
-  {
-    icon: "cookie",
-    name: "Accmee",
-  },
-  {
-    icon: "drama",
-    name: "Acmetech",
+    name: "Astorhosting.cloud",
   },
 ];
 
@@ -73,7 +62,7 @@ const iconMap: Record<
     id="sponsors"
     class="max-w-[75%] mx-auto pb-24 sm:pb-32"
   >
-    <h2 class="text-lg md:text-xl text-center mb-6">Our Platinum Sponsors</h2>
+    <h2 class="text-lg md:text-xl text-center mb-6">Unsere Sponsoren</h2>
 
     <div class="mx-auto">
       <Marquee

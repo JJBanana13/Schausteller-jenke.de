@@ -10,6 +10,11 @@ import {
 import LinkedInIcon from "@/icons/LinkedInIcon.vue";
 import GithubIcon from "@/icons/GithubIcon.vue";
 import XIcon from "@/icons/XIcon.vue";
+import YouTubeIcon from "@/icons/YouTubeIcon.vue";
+import Kofiicon from "@/icons/KOFIICON.vue";
+import tiktokicon from "@/icons/TiktokIcon.vue";
+import TwitchIcon from "@/icons/TwitchIcon.vue";
+
 
 interface TeamProps {
   imageUrl: string;
@@ -26,141 +31,187 @@ interface SocialNetworkProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/250?img=58",
-    firstName: "Leo",
-    lastName: "Miranda",
-    positions: ["Vue Fronted Developer", "Creator Of This Website"],
+    imageUrl: "https://data.schwerlastlogistik.eu/logo/pfp/JJBanana13.webp",
+    firstName: "JJBanana",
+    lastName: "13",
+    positions: ["Website Developer", "Event Team", "Media Team", "Fahrer"],
     socialNetworks: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
       {
         name: "Github",
-        url: "https://github.com/leoMirandaa",
+        url: "https://github.com/JJBanana13",
       },
       {
-        name: "X",
-        url: "https://x.com/leo_mirand4",
-      },
-    ],
-  },
-  {
-    imageUrl:
-      "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    firstName: "Elizabeth",
-    lastName: "Moore",
-    positions: ["UI/UX Designer"],
-    socialNetworks: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        name: "Youtube", // Corrected name here
+        url: "https://www.youtube.com/@jjbanana13",
       },
       {
-        name: "X",
-        url: "https://x.com/leo_mirand4",
+        name: "KOFI",
+        url: "https://ko-fi.com/jjbanana13",
+      },
+      {
+        name: "TikTok",
+        url: "https://www.tiktok.com/@jjbanana13",
+      },
+      {
+        name: "Twitch",
+        url: "https://www.twitch.tv/jjbanana13",
       },
     ],
   },
   {
     imageUrl:
-      "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    firstName: "David",
-    lastName: "Diaz",
-    positions: ["Machine Learning Engineer", "TensorFlow Tinkerer"],
+        "https://data.schwerlastlogistik.eu/logo/pfp/mrhello.gif",
+    firstName: "Mr",
+    lastName: "Hello",
+    positions: ["Website Developer", "Event Team", "Fahrer"],
+    socialNetworks: [
+    ],
+  },
+  {
+    imageUrl:
+      "https://data.schwerlastlogistik.eu/logo/pfp/zero.webp",
+    firstName: "Zero",
+    lastName: "Two",
+    positions: ["Inhaber", "Eventmanager", "Media Team"],
     socialNetworks: [
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Github",
-        url: "https://github.com/leoMirandaa",
+        name: "TikTok",
+        url: "https://www.tiktok.com/@mangosnock",
       },
     ],
   },
   {
     imageUrl:
-      "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    firstName: "Sarah",
-    lastName: "Robinson",
-    positions: ["Cloud Native Developer", " Kubernetes Orchestrator"],
+      "https://data.schwerlastlogistik.eu/logo/pfp/max.webp",
+    firstName: "",
+    lastName: "Max",
+    positions: ["Inhaber", "Event Team"],
     socialNetworks: [
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        name: "TikTok",
+        url: "https://www.tiktok.com/@v8_scania__max_v8",
       },
       {
-        name: "Github",
-        url: "https://github.com/leoMirandaa",
-      },
-      {
-        name: "X",
-        url: "https://x.com/leo_mirand4",
+        name: "Youtube",
+        url: "https://www.youtube.com/@maxwinkler-hz2vk",
       },
     ],
   },
   {
     imageUrl:
-      "https://images.unsplash.com/photo-1616805765352-beedbad46b2a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    firstName: "Michael",
-    lastName: "Holland",
-    positions: ["DevOps Engineer", "CI/CD Pipeline Mastermind"],
+        "https://data.schwerlastlogistik.eu/logo/pfp/enji.webp",
+    firstName: "Enji",
+    lastName: "Todoroki",
+    positions: ["Stvl. Inhaber", "Fahrer"],
+    socialNetworks: [
+
+    ],
+  },
+  {
+    imageUrl:
+      "https://data.schwerlastlogistik.eu/logo/pfp/standard.webp",
+    firstName: "Jan",
+    lastName: "Spielt20002",
+    positions: ["fahrer"],
+    socialNetworks: [
+
+    ],
+},
+  {
+    imageUrl:
+      "https://data.schwerlastlogistik.eu/logo/pfp/Tim.webp",
+    firstName: "!",
+    lastName: "Tim",
+    positions: ["Probefahrer"],
     socialNetworks: [
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
+        name: "Twitch",
+        url: "https://www.twitch.tv/mind_tim7",
       },
     ],
   },
   {
     imageUrl:
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    firstName: "Zoe",
-    lastName: "Garcia",
-    positions: ["JavaScript Evangelist", "Deno Champion"],
+      "https://data.schwerlastlogistik.eu/logo/pfp/brokenboy.webp",
+    firstName: "Broken",
+    lastName: "boy",
+    positions: ["Probefahrer"],
     socialNetworks: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Github",
-        url: "https://github.com/leoMirandaa",
-      },
     ],
   },
   {
     imageUrl:
-      "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    firstName: "Evan",
-    lastName: "James",
-    positions: ["Backend Developer"],
+      "https://data.schwerlastlogistik.eu/logo/pfp/blondie.webp",
+    firstName: "",
+    lastName: "Blondie",
+    positions: ["Probefahrer"],
     socialNetworks: [
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/leopoldo-miranda/",
-      },
-      {
-        name: "Github",
-        url: "https://github.com/leoMirandaa",
-      },
-      {
-        name: "X",
-        url: "https://x.com/leo_mirand4",
-      },
     ],
   },
   {
     imageUrl:
-      "https://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1573497019236-17f8177b81e8?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    firstName: "Pam",
-    lastName: "Taylor",
-    positions: ["Fullstack developer", "UX Researcher"],
+        "https://data.schwerlastlogistik.eu/logo/pfp/standard.webp",
+    firstName: "Duplex",
+    lastName: "Asp",
+    positions: ["Probefahrer"],
+    socialNetworks: [
+    ],
+  },
+  {
+    imageUrl:
+        "https://data.schwerlastlogistik.eu/logo/pfp/Meiestro.webp",
+    firstName: "",
+    lastName: "Meiestro",
+    positions: ["Fahrer"],
+    socialNetworks: [
+    ],
+  },
+  {
+    imageUrl:
+        "https://data.schwerlastlogistik.eu/logo/pfp/standard.webp",
+    firstName: "mell",
+    lastName: "2506",
+    positions: ["Probefahrer"],
+    socialNetworks: [
+    ],
+  },
+  {
+    imageUrl:
+        "https://data.schwerlastlogistik.eu/logo/pfp/standard.webp",
+    firstName: "",
+    lastName: "Svenii",
+    positions: ["Probefahrer"],
+    socialNetworks: [
+    ],
+  },
+  {
+    imageUrl:
+        "https://data.schwerlastlogistik.eu/logo/pfp/Tobi.webp",
+    firstName: "",
+    lastName: "tobi",
+    positions: ["Probefahrer"],
+    socialNetworks: [
+    ],
+  },
+  {
+    imageUrl:
+        "https://data.schwerlastlogistik.eu/logo/pfp/Tyrell.webp",
+    firstName: "",
+    lastName: "Tyrell",
+    positions: ["Fahrer"],
+    socialNetworks: [
+    ],
+  },
+  {
+    imageUrl:
+        "https://data.schwerlastlogistik.eu/logo/pfp/VAchenbach.webp",
+    firstName: "VA",
+    lastName: "chenbach",
+    positions: ["Fahrer"],
     socialNetworks: [
       {
-        name: "X",
-        url: "https://x.com/leo_mirand4",
+        name: "Youtube",
+        url: "https://www.youtube.com/@volkhardkatjaachenbach9478",
       },
     ],
   },
@@ -176,6 +227,19 @@ const socialIcon = (socialName: string) => {
 
     case "X":
       return XIcon;
+
+    case "Youtube": // Include case for YouTube
+      return YouTubeIcon;
+
+    case "KOFI":
+      return Kofiicon;
+
+    case "TikTok":
+      return tiktokicon;
+
+    case "Twitch":
+      return TwitchIcon;
+
   }
 };
 </script>
@@ -189,7 +253,7 @@ const socialIcon = (socialName: string) => {
       <h2 class="text-lg text-primary text-center mb-2 tracking-wider">Team</h2>
 
       <h2 class="text-3xl md:text-4xl text-center font-bold">
-        The Company Dream Team
+        Unser gesamtes Team
       </h2>
     </div>
 

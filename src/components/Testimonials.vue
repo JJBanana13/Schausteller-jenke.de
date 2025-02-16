@@ -28,53 +28,53 @@ interface ReviewProps {
 }
 
 const reviewList: ReviewProps[] = [
+      {
+        image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
+        name: "Lumitech",
+        userName: "Handy Marke",
+        comment:
+          "Die Zusammenarbeit mit diesem Team war ausgezeichnet! Unsere Schwerlastgüter wurden sicher und pünktlich geliefert. Die Professionalität und das Know-how in der Schwerlastlogistik haben uns beeindruckt. Wir werden definitiv wieder zusammenarbeiten!",
+        rating: 5.0,
+      },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
+    name: "Nexora",
+    userName: "Bau unternehmen",
     comment:
-      "Wow Vue + Shadcn-Vue is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
-    rating: 5.0,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
-    comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "Vielen Dank für die großartige Unterstützung bei unserem letzten Großprojekt! Die Planung, Organisation und Durchführung des Transports waren von höchster Qualität. Ihr Service war zuverlässig und effizient, selbst bei schweren und sperrigen Gütern. ",
     rating: 4.8,
   },
 
   {
-    image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
+    name: "Vantrex",
+    userName: "Micro-Chip Produktion",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Ein Top-Partner für Schwerlasttransporte! Die Kommunikation war jederzeit klar und professionell, und alle Abläufe liefen reibungslos. Unsere hohen Erwartungen wurden sogar übertroffen – absolut empfehlenswert!",
     rating: 4.9,
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
+    image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
+    name: "Solvex",
+    userName: "Datacenter",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Wir waren beeindruckt, wie reibungslos der Transport unserer Schwerlastgüter ablief. Trotz der komplexen Anforderungen wurde alles pünktlich und sicher geliefert. Ein echter Profi in der Schwerlastlogistik – absolut vertrauenswürdig!",
     rating: 5.0,
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
+    name: "Dynavo",
+    userName: "Solar Park",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "Herausragender Service! Die Expertise und Präzision dieses Teams haben unser Projekt enorm erleichtert. Vom ersten Kontakt bis zur finalen Lieferung lief alles perfekt. Vielen Dank für die großartige Unterstützung!",
     rating: 5.0,
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
+    name: "Zentrix",
+    userName: "Auto Hersteller",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Unsere Schwerlastlieferung war eine echte Herausforderung, aber dieses Team hat gezeigt, wie professionell und zuverlässig es agiert. Wir schätzen die exzellente Planung und die termingerechte Ausführung. Gerne wieder!",
     rating: 4.9,
   },
 ];
@@ -87,11 +87,11 @@ const reviewList: ReviewProps[] = [
   >
     <div class="text-center mb-8">
       <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-        Testimonials
+        Bewertungen
       </h2>
 
       <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-        Hear What Our 1000+ Clients Say
+        Was sagen unsere Auftraggeber ?
       </h2>
     </div>
 

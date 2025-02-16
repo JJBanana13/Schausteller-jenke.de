@@ -39,7 +39,7 @@ const handleSubmit = () => {
   const { firstName, lastName, email, subject, message } = contactForm;
   console.log(contactForm);
 
-  const mailToLink = `mailto:leomirandadev@gmail.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
+  const mailToLink = `mailto:contact@schwerlastlogistik.eu?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
 
   window.location.href = mailToLink;
 };
@@ -55,53 +55,12 @@ const handleSubmit = () => {
         <div class="mb-4">
           <h2 class="text-lg text-primary mb-2 tracking-wider">Contact</h2>
 
-          <h2 class="text-3xl md:text-4xl font-bold">Connect With Us</h2>
+          <h2 class="text-3xl md:text-4xl font-bold">Anfrage an uns</h2>
         </div>
         <p class="mb-8 text-muted-foreground lg:w-5/6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          ipsam sint enim exercitationem ex autem corrupti quas tenetur
+         hast du Fragen an uns? dann melde dich gerne per dem Formular.
         </p>
 
-        <div class="flex flex-col gap-4">
-          <div>
-            <div class="flex gap-2 mb-1">
-              <Building2 />
-              <div class="font-bold">Find Us</div>
-            </div>
-
-            <div>742 Evergreen Terrace, Springfield, IL 62704</div>
-          </div>
-
-          <div>
-            <div class="flex gap-2 mb-1">
-              <Phone />
-              <div class="font-bold">Call Us</div>
-            </div>
-
-            <div>+1 (619) 123-4567</div>
-          </div>
-
-          <div>
-            <div class="flex gap-2 mb-1">
-              <Mail />
-              <div class="font-bold">Mail Us</div>
-            </div>
-
-            <div>leomirandadev@gmail.com</div>
-          </div>
-
-          <div>
-            <div class="flex gap-2">
-              <Clock />
-              <div class="font-bold">Visit Us</div>
-            </div>
-
-            <div>
-              <div>Monday - Friday</div>
-              <div>8AM - 4PM</div>
-            </div>
-          </div>
-        </div>
       </div>
 
       <!-- form -->
@@ -114,21 +73,21 @@ const handleSubmit = () => {
           >
             <div class="flex flex-col md:flex-row gap-8">
               <div class="flex flex-col w-full gap-1.5">
-                <Label for="first-name">First Name</Label>
+                <Label for="first-name">Vorname</Label>
                 <Input
                   id="first-name"
                   type="text"
-                  placeholder="Leopoldo"
+                  placeholder="Max"
                   v-model="contactForm.firstName"
                 />
               </div>
 
               <div class="flex flex-col w-full gap-1.5">
-                <Label for="last-name">Last Name</Label>
+                <Label for="last-name">Nachname</Label>
                 <Input
                   id="last-name"
                   type="text"
-                  placeholder="Miranda"
+                  placeholder="Mustermann"
                   v-model="contactForm.lastName"
                 />
               </div>
@@ -139,13 +98,13 @@ const handleSubmit = () => {
               <Input
                 id="email"
                 type="email"
-                placeholder="leomirandadev@gmail.com"
+                placeholder="max@mustermann.de"
                 v-model="contactForm.email"
               />
             </div>
 
             <div class="flex flex-col gap-1.5">
-              <Label for="subject">Subject</Label>
+              <Label for="subject">Betreff</Label>
 
               <Select v-model="contactForm.subject">
                 <SelectTrigger>
@@ -153,16 +112,16 @@ const handleSubmit = () => {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
-                    <SelectItem value="Web Development">
-                      Web Development
+                    <SelectItem value="Bewerbung">
+                      Bewerbung
                     </SelectItem>
-                    <SelectItem value="Mobile Development">
-                      Mobile Development
+                    <SelectItem value="Anfrage">
+                      Anfrage
                     </SelectItem>
-                    <SelectItem value="Figma Design"> Figma Design </SelectItem>
-                    <SelectItem value="REST API "> REST API </SelectItem>
-                    <SelectItem value="FullStack Project">
-                      FullStack Project
+                    <SelectItem value="Presse"> Presse </SelectItem>
+                    <SelectItem value="Auftrag"> Auftrag </SelectItem>
+                    <SelectItem value="Website Administration">
+                      Website Administration
                     </SelectItem>
                   </SelectGroup>
                 </SelectContent>

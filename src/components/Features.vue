@@ -21,39 +21,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "tabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Digital vernetzt & effizient",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Unsere modernen Systeme ermöglichen eine nahtlose digitale Auftragsabwicklung – für eine schnelle und transparente Kommunikation.",
   },
   {
     icon: "badgeCheck",
-    title: "Social Proof",
+    title: "Bewährte Expertise & Vertrauen",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Langjährige Erfahrung und zufriedene Kunden sind der beste Beweis für unsere Zuverlässigkeit in der Schwerlastlogistik.",
   },
   {
     icon: "goal",
-    title: "Targeted Content",
+    title: "Zielgerichtete Transportlösungen",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Wir entwickeln individuelle Konzepte für jeden Schwertransport, um Effizienz und Sicherheit zu maximieren.",
   },
   {
     icon: "pictureInPicture",
-    title: "Strong Visuals",
+    title: "Klare & präzise Planung",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Dank detaillierter Planung und modernster Technik gewährleisten wir einen reibungslosen Ablauf – auch bei komplexen Anforderungen.",
   },
   {
-    icon: "mousePointerClick",
+    icon: "Klare Kommunikation & schnelle Reaktion",
     title: "Clear CTA",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Unser Team steht Ihnen jederzeit zur Verfügung und sorgt für eine direkte, schnelle und verlässliche Kommunikation.",
   },
   {
     icon: "newspaper",
-    title: "Clear Headline",
+    title: "Höchste Standards & Sicherheit",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Wir setzen auf geprüfte Prozesse und höchste Sicherheitsstandards, um Ihre Ladung optimal zu schützen.",
   },
 ];
 
@@ -85,17 +85,15 @@ const iconMap: Record<
     class="container py-24 sm:py-32"
   >
     <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-      Features
+      Merkmale
     </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-      What Makes Us Different
+      Was uns einzigartig macht
     </h2>
 
     <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-      fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-      facere tenetur.
+      Schwerlastlogistik.eu bietet maßgeschneiderte Lösungen für den sicheren und effizienten Transport schwerer Lasten. Unsere modernen Technologien und unser erfahrenes Team garantieren höchste Qualität und Zuverlässigkeit.
     </h3>
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

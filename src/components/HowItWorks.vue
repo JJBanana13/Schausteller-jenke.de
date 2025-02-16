@@ -11,31 +11,31 @@ interface HowItWorksProps {
 
 const HowItWorksList: HowItWorksProps[] = [
   {
-    badgeTitle: "Contribute",
-    title: "Make a Difference with Every Contribution",
+    badgeTitle: "🔍 Analyse & Planung",
+    title: "Effiziente Planung für maximale Leistung",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
+      "Eine durchdachte Strategie ist der Schlüssel zur erfolgreichen Schwerlastlogistik. Präzise Routenplanung und Kapazitätsberechnungen optimieren den Transport.",
     image: "roboto.png",
   },
   {
-    badgeTitle: "Discover",
-    title: "Create an Impact with Every Choice",
+    badgeTitle: "🚛 Transport & Umsetzung",
+    title: "Sichere und termingerechte Lieferung",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, sint reiciendis quidem iure veritatis optio facere tenetur.",
+      "Mit modernster Technik und erfahrenen Fachkräften gewährleisten wir einen reibungslosen Transport von Schwerlastgütern – sicher und effizient.",
     image: "runner.png",
   },
   {
-    badgeTitle: "Innovate",
-    title: "Make Every Action Count",
+    badgeTitle: "💡 Individuelle Lösungen",
+    title: "Maßgeschneiderte Konzepte für jede Herausforderung",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, odit similique quasi sint.",
+      "Jedes Projekt ist einzigartig. Wir entwickeln individuelle Logistikkonzepte, die exakt auf die Anforderungen von Schwer- und Spezialtransporten zugeschnitten sind.",
     image: "pacheco.png",
   },
   {
-    badgeTitle: "Collaborate",
-    title: "Tackle this challenge together",
+    badgeTitle: "🤝 Zusammenarbeit & Support",
+    title: "Zuverlässiger Partner für Ihr Projekt",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
+      "Von der ersten Planung bis zur finalen Umsetzung – wir stehen Ihnen mit Expertise und persönlicher Beratung zur Seite, um Ihre Schwerlastlogistik effizient zu gestalten.",
     image: "gamestation.png",
   },
 ];
@@ -48,11 +48,11 @@ const HowItWorksList: HowItWorksProps[] = [
   >
     <div class="text-center mb-8">
       <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-        How It Works
+        Wie Funktioniert es
       </h2>
 
       <h2 class="text-3xl md:text-4xl text-center font-bold">
-        Step-by-Step Process
+        Ablauf – Schritt für Schritt zum erfolgreichen Schwertransport
       </h2>
     </div>
 

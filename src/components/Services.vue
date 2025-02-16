@@ -21,25 +21,25 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Individuelle Transportlösungen",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "Jedes Schwertransportprojekt ist einzigartig. Wir bieten maßgeschneiderte Konzepte, die perfekt auf Ihre Anforderungen abgestimmt sind.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "Digitale Vernetzung & Echtzeit-Tracking",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
+      "Dank modernster Technologie behalten Sie Ihren Transport in Echtzeit im Blick – für maximale Transparenz und Sicherheit.",
     pro: 0,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
+    title: "Effiziente Kommunikation & schnelle Abwicklung",
+    description: "Unsere digitalen Systeme sorgen für eine reibungslose Kommunikation und eine schnelle Bearbeitung Ihrer Transportanfragen.",
     pro: 0,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    title: "Optimierte Routenplanung & Genehmigungen",
+    description: "Wir übernehmen die komplexe Routenplanung und kümmern uns um alle behördlichen Genehmigungen – effizient und zuverlässig.",
     pro: 1,
   },
 ];
@@ -51,15 +51,14 @@ const serviceList: ServiceProps[] = [
     class="container py-24 sm:py-32"
   >
     <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-      Services
+      Dienstleistungen
     </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-      Grow Your Business
+      Optimale Lösungen für Ihre Schwertransporte
     </h2>
     <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-      From marketing and sales to operations and strategy, we have the expertise
-      to help you achieve your goals.
+      Von der Planung bis zur Umsetzung bieten wir maßgeschneiderte Lösungen für den sicheren und effizienten Transport schwerer Lasten. Vertrauen Sie auf unsere Erfahrung und modernste Technologien.
     </h3>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
