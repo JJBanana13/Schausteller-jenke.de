@@ -7,13 +7,13 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 
-import LinkedInIcon from "@/icons/LinkedInIcon.vue";
-import GithubIcon from "@/icons/GithubIcon.vue";
-import XIcon from "@/icons/XIcon.vue";
-import YouTubeIcon from "@/icons/YouTubeIcon.vue";
-import Kofiicon from "@/icons/KOFIICON.vue";
-import tiktokicon from "@/icons/TiktokIcon.vue";
-import TwitchIcon from "@/icons/TwitchIcon.vue";
+import Linkedinicon from "@/icons/linkedinicon.vue";
+import githubicon from "@/icons/githubicon.vue";
+import xicon from "@/icons/xicon.vue";
+import youtubeicon from "@/icons/youtubeicon.vue";
+import Kofiicon from "@/icons/kofiicon.vue";
+import Tiktokicon from "@/icons/tiktokicon.vue";
+import twitchicon from "@/icons/twitchicon.vue";
 
 
 interface TeamProps {
@@ -220,25 +220,25 @@ const teamList: TeamProps[] = [
 const socialIcon = (socialName: string) => {
   switch (socialName) {
     case "LinkedIn":
-      return LinkedInIcon;
+      return Linkedinicon;
 
     case "Github":
-      return GithubIcon;
+      return githubicon;
 
     case "X":
-      return XIcon;
+      return xicon;
 
     case "Youtube": // Include case for YouTube
-      return YouTubeIcon;
+      return youtubeicon;
 
     case "KOFI":
       return Kofiicon;
 
     case "TikTok":
-      return tiktokicon;
+      return Tiktokicon;
 
     case "Twitch":
-      return TwitchIcon;
+      return twitchicon;
 
   }
 };
