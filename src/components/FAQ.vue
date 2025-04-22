@@ -14,14 +14,14 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Welche Transportlösungen bietet Schwerlastlogistik.eu an?",
-    answer: "Wir bieten spezialisierte Lösungen für Schwer- und Spezialtransporte, einschließlich maßgeschneiderter Logistikkonzepte für übergroße und schwere Güter.",
+    question: "Kann man das Kinderkarussell auch für private Feiern mieten?",
+    answer: "Ja, unser Kinderkarussell kann auch für private Veranstaltungen wie Geburtstagsfeiern oder Hochzeiten gemietet werden. Kontaktieren Sie uns gerne, um die Details zu besprechen!",
     value: "item-1",
   },
   {
-    question: "Kann ich eine individuelle Transportberatung erhalten?",
+    question: "Wie viel Platz wird für den Aufbau des Karussells benötigt?",
     answer:
-      "Ja! Unser Expertenteam steht Ihnen zur Verfügung, um individuelle Transportlösungen zu entwickeln und den gesamten Ablauf effizient zu gestalten.",
+      "Für den Aufbau des Karussells benötigen wir eine ebene Fläche von etwa 6x8m. Falls Sie unsicher sind, ob der Platz ausreicht, helfen wir Ihnen gerne bei der Planung.",
     value: "item-2",
   },
 ];

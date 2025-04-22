@@ -14,6 +14,7 @@ import youtubeicon from "@/icons/youtubeicon.vue";
 import Kofiicon from "@/icons/kofiicon.vue";
 import Tiktokicon from "@/icons/tiktokicon.vue";
 import twitchicon from "@/icons/twitchicon.vue";
+import whatsappicon from "@/icons/Whatsappicon.vue";
 
 
 interface TeamProps {
@@ -31,17 +32,17 @@ interface SocialNetworkProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://data.schwerlastlogistik.eu/logo/pfp/JJBanana13.webp",
+    imageUrl: "https://data-node1.jjbanana13.wtf/logo/pfp/JJBanana13.webp",
     firstName: "JJBanana",
     lastName: "13",
-    positions: ["Website Developer", "Event Team", "Media Team", "Fahrer"],
+    positions: ["Website Developer"],
     socialNetworks: [
       {
         name: "Github",
         url: "https://github.com/JJBanana13",
       },
       {
-        name: "Youtube", // Corrected name here
+        name: "Youtube",
         url: "https://www.youtube.com/@jjbanana13",
       },
       {
@@ -60,161 +61,22 @@ const teamList: TeamProps[] = [
   },
   {
     imageUrl:
-        "https://data.schwerlastlogistik.eu/logo/pfp/mrhello.gif",
-    firstName: "Mr",
-    lastName: "Hello",
-    positions: ["Website Developer", "Event Team", "Fahrer"],
-    socialNetworks: [
-    ],
-  },
-  {
-    imageUrl:
-      "https://data.schwerlastlogistik.eu/logo/pfp/zero.webp",
-    firstName: "Zero",
-    lastName: "Two",
-    positions: ["Inhaber", "Eventmanager", "Media Team"],
+      "https://data-node1.jjbanana13.wtf/logo/pfp/simon.webp",
+    firstName: "Simon",
+    lastName: "Jenke",
+    positions: ["Inhaber"],
     socialNetworks: [
       {
         name: "TikTok",
-        url: "https://www.tiktok.com/@mangosnock",
+        url: "https://www.tiktok.com/@simonjenke656",
+      },
+      {
+        name: "Whatsapp",
+        url: "https://wa.me/+4917661128856",
       },
     ],
   },
-  {
-    imageUrl:
-      "https://data.schwerlastlogistik.eu/logo/pfp/max.webp",
-    firstName: "",
-    lastName: "Max",
-    positions: ["Inhaber", "Event Team"],
-    socialNetworks: [
-      {
-        name: "TikTok",
-        url: "https://www.tiktok.com/@v8_scania__max_v8",
-      },
-      {
-        name: "Youtube",
-        url: "https://www.youtube.com/@maxwinkler-hz2vk",
-      },
-    ],
-  },
-  {
-    imageUrl:
-        "https://data.schwerlastlogistik.eu/logo/pfp/enji.webp",
-    firstName: "Enji",
-    lastName: "Todoroki",
-    positions: ["Stvl. Inhaber", "Fahrer"],
-    socialNetworks: [
 
-    ],
-  },
-  {
-    imageUrl:
-      "https://data.schwerlastlogistik.eu/logo/pfp/standard.webp",
-    firstName: "Jan",
-    lastName: "Spielt20002",
-    positions: ["fahrer"],
-    socialNetworks: [
-
-    ],
-},
-  {
-    imageUrl:
-      "https://data.schwerlastlogistik.eu/logo/pfp/Tim.webp",
-    firstName: "!",
-    lastName: "Tim",
-    positions: ["Probefahrer"],
-    socialNetworks: [
-      {
-        name: "Twitch",
-        url: "https://www.twitch.tv/mind_tim7",
-      },
-    ],
-  },
-  {
-    imageUrl:
-      "https://data.schwerlastlogistik.eu/logo/pfp/brokenboy.webp",
-    firstName: "Broken",
-    lastName: "boy",
-    positions: ["Probefahrer"],
-    socialNetworks: [
-    ],
-  },
-  {
-    imageUrl:
-      "https://data.schwerlastlogistik.eu/logo/pfp/blondie.webp",
-    firstName: "",
-    lastName: "Blondie",
-    positions: ["Probefahrer"],
-    socialNetworks: [
-    ],
-  },
-  {
-    imageUrl:
-        "https://data.schwerlastlogistik.eu/logo/pfp/standard.webp",
-    firstName: "Duplex",
-    lastName: "Asp",
-    positions: ["Probefahrer"],
-    socialNetworks: [
-    ],
-  },
-  {
-    imageUrl:
-        "https://data.schwerlastlogistik.eu/logo/pfp/Meiestro.webp",
-    firstName: "",
-    lastName: "Meiestro",
-    positions: ["Fahrer"],
-    socialNetworks: [
-    ],
-  },
-  {
-    imageUrl:
-        "https://data.schwerlastlogistik.eu/logo/pfp/standard.webp",
-    firstName: "mell",
-    lastName: "2506",
-    positions: ["Probefahrer"],
-    socialNetworks: [
-    ],
-  },
-  {
-    imageUrl:
-        "https://data.schwerlastlogistik.eu/logo/pfp/standard.webp",
-    firstName: "",
-    lastName: "Svenii",
-    positions: ["Probefahrer"],
-    socialNetworks: [
-    ],
-  },
-  {
-    imageUrl:
-        "https://data.schwerlastlogistik.eu/logo/pfp/Tobi.webp",
-    firstName: "",
-    lastName: "tobi",
-    positions: ["Probefahrer"],
-    socialNetworks: [
-    ],
-  },
-  {
-    imageUrl:
-        "https://data.schwerlastlogistik.eu/logo/pfp/Tyrell.webp",
-    firstName: "",
-    lastName: "Tyrell",
-    positions: ["Fahrer"],
-    socialNetworks: [
-    ],
-  },
-  {
-    imageUrl:
-        "https://data.schwerlastlogistik.eu/logo/pfp/VAchenbach.webp",
-    firstName: "VA",
-    lastName: "chenbach",
-    positions: ["Fahrer"],
-    socialNetworks: [
-      {
-        name: "Youtube",
-        url: "https://www.youtube.com/@volkhardkatjaachenbach9478",
-      },
-    ],
-  },
 ];
 
 const socialIcon = (socialName: string) => {
@@ -239,6 +101,8 @@ const socialIcon = (socialName: string) => {
 
     case "Twitch":
       return twitchicon;
+    case "Whatsapp":
+      return whatsappicon;
 
   }
 };

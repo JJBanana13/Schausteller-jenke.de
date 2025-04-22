@@ -18,37 +18,38 @@ import { ArrowRight } from "lucide-vue-next";
           class="text-sm py-2"
         >
           <span class="mr-2 text-primary">
-            <Badge>Zu schwer?</Badge>
+            <Badge>Schausteller</Badge>
           </span>
-          <span>Gibt’s nicht!</span>
+          <span>Jenke</span>
         </Badge>
 
         <div
           class="max-w-screen-md mx-auto text-center text-5xl md:text-6xl font-bold"
         >
           <h1>
-            Erlebe
+            Karussell/Imbiss
+
             <span
               class="text-transparent bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text"
-              >Schwerlastlogistik.eu
+              >Betrieb/Verleih
             </span>
 
           </h1>
         </div>
 
         <p class="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-          eine virtuelle Spedition in TruckersMP, die sich auf den Transport von Schwer- und Spezialladungen spezialisiert hat. Schließe dich unserer Community an und erlebe die Faszination des digitalen Lkw-Fahrens in einem professionellen Team!
+          Erleben Sie leuchtenden Fahrspaß für die Kleinen! Unser Kinderkarussell bietet eine farbenfrohe und sichere Umgebung, in der Kinder ihre Fantasie ausleben können. Mit liebevoll gestalteten Fahrzeugen und Figuren ist es das Highlight auf jedem Fest oder Event. Lassen Sie Kinderaugen strahlen und genießen Sie eine unvergessliche Zeit!
         </p>
 
         <div class="space-y-4 md:space-y-0 md:space-x-4">
           <Button
               as="a"
-              href="https://dc.schwerlastlogistik.eu"
+              href="tel:+4917661128856"
               target="_blank"
               rel="noopener noreferrer"
               class="w-5/6 md:w-1/4 font-bold"
           >
-            Trete uns bei
+            Anrufen
             <ArrowRight
                 class="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform"
             />
@@ -67,7 +68,7 @@ import { ArrowRight } from "lucide-vue-next";
         <img
           class="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-t-primary/30 img-border-animation"
           :src="
-            mode == 'light' ? 'LKW.webp' : 'LKW.webp'
+            mode == 'light' ? 'hero.webp' : 'hero.webp'
           "
           alt="dashboard using shadcn-vue"
         />

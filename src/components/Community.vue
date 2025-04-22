@@ -29,25 +29,25 @@ import DiscordIcon from "@/icons/DiscordIcon.vue";
                 class="w-20 h-20 m-auto mb-4"
                 :is="DiscordIcon"
               />
-              VERNETZEN &
+              Gemeinsam
               <span
                 class="text-transparent bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text"
               >
-                WACHSEN
+                die Zukunft gestalten.
               </span>
             </CardTitle>
           </CardHeader>
           <CardContent class="lg:w-[80%] text-xl text-muted-foreground">
-            Treten Sie unserer Schwerlastlogistik-Community bei! Tauschen Sie sich mit Experten aus, entdecken Sie neue Möglichkeiten und bleiben Sie am Puls der Branche.
+            Ob Branchennews, Diskussionen oder exklusive Einblicke – in unserer Community erwarten Sie wertvolle Kontakte, inspirierender Austausch und echte Chancen zur Weiterentwicklung. Werden Sie Teil eines starken Netzwerks und bringen Sie Ihre Perspektive mit ein.
           </CardContent>
 
           <CardFooter>
             <Button as-child>
               <a
-                href="https://dc.schwerlastlogistik.eu"
+                href="https://discord.gg/SjAbqNbWYs"
                 target="_blank"
               >
-                Jetzt beitreten 🚛
+                Jetzt beitreten 💬
               </a>
             </Button>
           </CardFooter>

@@ -28,53 +28,52 @@ interface ReviewProps {
 }
 
 const reviewList: ReviewProps[] = [
-      {
-        image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
-        name: "Lumitech",
-        userName: "Handy Marke",
-        comment:
-          "Die Zusammenarbeit mit diesem Team war ausgezeichnet! Unsere Schwerlastgüter wurden sicher und pünktlich geliefert. Die Professionalität und das Know-how in der Schwerlastlogistik haben uns beeindruckt. Wir werden definitiv wieder zusammenarbeiten!",
-        rating: 5.0,
-      },
   {
     image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
-    name: "Nexora",
-    userName: "Bau unternehmen",
+    name: "Lena S.",
+    userName: "Grundschullehrerin aus Freiburg",
     comment:
-      "Vielen Dank für die großartige Unterstützung bei unserem letzten Großprojekt! Die Planung, Organisation und Durchführung des Transports waren von höchster Qualität. Ihr Service war zuverlässig und effizient, selbst bei schweren und sperrigen Gütern. ",
+        "Das Kinderkarussell war das Highlight unseres Schulfestes! Die Kinder waren begeistert, und die Eltern haben die liebevolle Gestaltung sehr gelobt. Vielen Dank für den großartigen Einsatz!",
+    rating: 5.0,
+  },
+  {
+    image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
+    name: "Thomas W.",
+    userName: "Eventmanager aus Stuttgart",
+    comment:
+        "Wir haben das Karussell für unser Sommerfest gebucht, und es war ein voller Erfolg! Die Organisation war top, und die Kinder hatten riesigen Spaß. Absolut empfehlenswert!",
     rating: 4.8,
   },
-
   {
     image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
-    name: "Vantrex",
-    userName: "Micro-Chip Produktion",
+    name: "Dr. Miriam K.",
+    userName: "Kinderärztin aus Karlsruhe",
     comment:
-      "Ein Top-Partner für Schwerlasttransporte! Die Kommunikation war jederzeit klar und professionell, und alle Abläufe liefen reibungslos. Unsere hohen Erwartungen wurden sogar übertroffen – absolut empfehlenswert!",
+        "Das Karussell hat auf dem Stadtfest für strahlende Kinderaugen gesorgt. Besonders beeindruckt hat mich die Sicherheit und Professionalität des Teams – einfach klasse!",
     rating: 4.9,
   },
   {
     image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
-    name: "Solvex",
-    userName: "Datacenter",
+    name: "Jan P.",
+    userName: "Student aus Heidelberg",
     comment:
-      "Wir waren beeindruckt, wie reibungslos der Transport unserer Schwerlastgüter ablief. Trotz der komplexen Anforderungen wurde alles pünktlich und sicher geliefert. Ein echter Profi in der Schwerlastlogistik – absolut vertrauenswürdig!",
+        "Ich fand die Atmosphäre rund um das Karussell einfach toll! Es war nicht nur optisch ein Highlight, sondern auch super organisiert. Großes Lob an das Team!",
     rating: 5.0,
   },
   {
     image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
-    name: "Dynavo",
-    userName: "Solar Park",
+    name: "Sophie L.",
+    userName: "Buchhändlerin aus Konstanz",
     comment:
-      "Herausragender Service! Die Expertise und Präzision dieses Teams haben unser Projekt enorm erleichtert. Vom ersten Kontakt bis zur finalen Lieferung lief alles perfekt. Vielen Dank für die großartige Unterstützung!",
+        "Euer Karussell hat unsere Veranstaltung so besonders gemacht! Die liebevolle Gestaltung und der freundliche Service haben uns alle begeistert. Vielen Dank!",
     rating: 5.0,
   },
   {
     image: "https://data.schwerlastlogistik.eu/logo/pfp/firma1.svg",
-    name: "Zentrix",
-    userName: "Auto Hersteller",
+    name: "Karim D.",
+    userName: "Außendienstmitarbeiter aus Mannheim",
     comment:
-      "Unsere Schwerlastlieferung war eine echte Herausforderung, aber dieses Team hat gezeigt, wie professionell und zuverlässig es agiert. Wir schätzen die exzellente Planung und die termingerechte Ausführung. Gerne wieder!",
+        "Für jemanden wie mich, der viel unterwegs ist, war es toll zu sehen, wie flexibel und zuverlässig ihr seid. Das Karussell war pünktlich aufgebaut und hat für eine großartige Stimmung gesorgt!",
     rating: 4.9,
   },
 ];
@@ -91,7 +90,7 @@ const reviewList: ReviewProps[] = [
       </h2>
 
       <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-        Was sagen unsere Auftraggeber ?
+        Das sagen unsere Kunden über unser Kinderkarussell! Lesen Sie, warum unser Karussell auf jedem Fest ein Highlight ist und wie es für strahlende Kinderaugen sorgt
       </h2>
     </div>
 

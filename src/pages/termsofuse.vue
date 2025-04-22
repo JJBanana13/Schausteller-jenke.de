@@ -3,7 +3,7 @@
     <div class="terms-box">
       <h1>Nutzungsbedingungen</h1>
       <p>
-        Willkommen auf unserer Website <strong>schwerlastlogistik.eu</strong>. Durch die Nutzung der Website stimmen Sie den folgenden Nutzungsbedingungen ("Bedingungen") zu.
+        Willkommen auf unserer Website <strong>schausteller-jenke.de</strong>. Durch die Nutzung der Website stimmen Sie den folgenden Nutzungsbedingungen ("Bedingungen") zu.
       </p>
 
       <h2>1) Zugang zur Website</h2>

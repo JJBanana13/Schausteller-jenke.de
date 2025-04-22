@@ -2,24 +2,24 @@
   <div class="impressum-container">
     <div class="impressum-box">
       <h1>Impressum</h1>
-      <p>JJBanana13 - Justin Jenke</p>
+      <p>Simon Jenke</p>
       <p>
-        c/o Online-Impressum.de<br />
-        Europaring 90<br />
-        53757 Sankt Augustin
+        Beethovenstrasse 13<br />
+        79787 Lauchringen<br />
+        Steuernummer: 20187/01450<br />
+        Reisegewerbe: 0088191<br />
       </p>
       <p>
-        E-Mail: <a href="mailto:contact@jjbanana13.wtf">contact@jjbanana13.wtf</a>
+        E-Mail: <a href="mailto:simon@schausteller-jenke.de">simon@schausteller-jenke.de</a>
       </p>
       <p> Sollte diese Adresse missbraucht werden, bleibt der Rechtsweg nicht ausgeschlossen. </p>
       <h2>Zuständige Regulierungs- und Aufsichtsbehörde:</h2>
       <p>
-        Landesanstalt für Kommunikation Baden-Württemberg<br />
+        Landratsamt Waldshut<br />
         Sitz: Deutschland
       </p>
       <p>
-        Das hier angegebene Impressum gilt für alle Belange der Impressumspflicht nach §5 TMG, §55 Abs.2 RStV & MStV §18 sowie für alle Social-Media-Auftritte
-        des Creators.
+        Das hier angegebene Impressum gilt für alle Belange der Impressumspflicht nach §5 TMG, §55 Abs.2 RStV & MStV §18
       </p>
     </div>
   </div>

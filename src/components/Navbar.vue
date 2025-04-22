@@ -24,7 +24,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
 import { ChevronsDown, Menu } from "lucide-vue-next";
-import Githubicon from "@/icons/githubicon.vue";
+import kofiicon from "@/icons/kofiicon.vue";
 import ToggleTheme from "./ToggleTheme.vue";
 
 interface RouteProps {
@@ -35,20 +35,24 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "https://schwerlastlogistik.eu/#testimonials",
+    href: "/#testimonials",
     label: "Bewertungen",
   },
   {
-    href: "https://schwerlastlogistik.eu/#team",
+    href: "/#team",
     label: "Team",
   },
   {
-    href: "https://schwerlastlogistik.eu/#contact",
+    href: "/#contact",
     label: "Kontakt",
   },
   {
-    href: "https://schwerlastlogistik.eu/#faq",
+    href: "/#faq",
     label: "FAQ",
+  },
+  {
+    href: "/Geschichte",
+    label: "Geschichte",
   },
 ];
 
@@ -71,7 +75,7 @@ const isOpen = ref<boolean>(false);
       <ChevronsDown
         class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white"
       />
-      Schwerlastlogistik.eu</a
+      Schausteller-jenke.de</a
     >
     <!-- Mobile -->
     <div class="flex items-center lg:hidden">
@@ -97,7 +101,7 @@ const isOpen = ref<boolean>(false);
                   <ChevronsDown
                     class="bg-gradient-to-tr from-primary/70 via-primary to-primary/70 rounded-lg size-9 mr-2 border text-white"
                   />
-                  ShadcnVue
+                  Schausteller Jenke
                 </a>
               </SheetTitle>
             </SheetHeader>
@@ -160,14 +164,14 @@ const isOpen = ref<boolean>(false);
         as-child
         size="sm"
         variant="ghost"
-        aria-label="View on GitHub"
+        aria-label="Spenden"
       >
         <a
-          aria-label="View on GitHub"
-          href="https://github.com/leoMirandaa/shadcn-vue-landing-page.git"
+          aria-label="Spenden"
+          href="https://ko-fi.com/jjbanana13"
           target="_blank"
         >
-          <Githubicon class="size-5" />
+          <kofiicon class="size-5" />
         </a>
       </Button>
     </div>

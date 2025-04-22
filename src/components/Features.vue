@@ -4,12 +4,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Paintbrush,
   MessageCircle,
-  TabletSmartphone,
-  BadgeCheck,
-  Goal,
-  PictureInPicture,
-  MousePointerClick,
-  Newspaper,
+  Earth,
+  Lightbulb,
+  ShieldPlus,
+  Beer,
+  Unplug,
+  CalendarFold,
 } from "lucide-vue-next";
 
 interface FeaturesProps {
@@ -20,62 +20,62 @@ interface FeaturesProps {
 
 const featureList: FeaturesProps[] = [
   {
-    icon: "tabletSmartphone",
-    title: "Digital vernetzt & effizient",
+    icon: "Earth",
+    title: "Mobil und flexibel",
     description:
-      "Unsere modernen Systeme ermöglichen eine nahtlose digitale Auftragsabwicklung – für eine schnelle und transparente Kommunikation.",
+        "Unser Karussell ist mobil und kann auf verschiedenen Festplätzen oder privaten Veranstaltungen eingesetzt werden.",
   },
   {
-    icon: "badgeCheck",
-    title: "Bewährte Expertise & Vertrauen",
+    icon: "Lightbulb",
+    title: "Leuchtendes Highlight",
     description:
-      "Langjährige Erfahrung und zufriedene Kunden sind der beste Beweis für unsere Zuverlässigkeit in der Schwerlastlogistik.",
+        "Die moderne LED-Beleuchtung macht das Karussell zu einem echten Hingucker – besonders bei Dunkelheit.",
   },
   {
-    icon: "goal",
-    title: "Zielgerichtete Transportlösungen",
+    icon: "ShieldPlus",
+    title: "Sicherer Fahrspaß",
     description:
-      "Wir entwickeln individuelle Konzepte für jeden Schwertransport, um Effizienz und Sicherheit zu maximieren.",
+      "Wir legen großen Wert auf Sicherheit, damit Kinder sorgenfrei Spaß haben können.",
   },
   {
-    icon: "pictureInPicture",
-    title: "Klare & präzise Planung",
+    icon: "Beer",
+    title: "Perfekt für Feste",
     description:
-      "Dank detaillierter Planung und modernster Technik gewährleisten wir einen reibungslosen Ablauf – auch bei komplexen Anforderungen.",
+      "Ob Volksfest, Stadtfest oder Vereinsfeier – unser Karussell ist immer ein Publikumsmagnet.",
   },
   {
-    icon: "Klare Kommunikation & schnelle Reaktion",
-    title: "Clear CTA",
+    icon: "Unplug",
+    title: "Vermietung möglich",
     description:
-      "Unser Team steht Ihnen jederzeit zur Verfügung und sorgt für eine direkte, schnelle und verlässliche Kommunikation.",
+        "Mieten Sie unser Kinderkarussell für Ihre Veranstaltung und machen Sie sie zu etwas ganz Besonderem!",
   },
   {
-    icon: "newspaper",
-    title: "Höchste Standards & Sicherheit",
+    icon: "CalendarFold",
+    title: "Erfahrung und Zuverlässigkeit",
     description:
-      "Wir setzen auf geprüfte Prozesse und höchste Sicherheitsstandards, um Ihre Ladung optimal zu schützen.",
+        "Mit jahrelanger Erfahrung als Schaustellerbetrieb stehen wir für Zuverlässigkeit und professionellen Service.",
   },
 ];
 
 const iconMap: Record<
   string,
-  | typeof TabletSmartphone
-  | typeof BadgeCheck
-  | typeof Goal
-  | typeof PictureInPicture
+  | typeof Earth
+  | typeof Lightbulb
+  | typeof ShieldPlus
+  | typeof Beer
   | typeof Paintbrush
-  | typeof MousePointerClick
+  | typeof Unplug
   | typeof MessageCircle
-  | typeof Newspaper
+  | typeof CalendarFold
 > = {
-  tabletSmartphone: TabletSmartphone,
-  badgeCheck: BadgeCheck,
-  goal: Goal,
-  pictureInPicture: PictureInPicture,
+  Earth: Earth,
+  Lightbulb: Lightbulb,
+  ShieldPlus: ShieldPlus,
+  Beer: Beer,
   paintbrush: Paintbrush,
-  mousePointerClick: MousePointerClick,
+  Unplug: Unplug,
   messageCircle: MessageCircle,
-  newspaper: Newspaper,
+  CalendarFold: CalendarFold,
 };
 </script>
 
@@ -89,11 +89,11 @@ const iconMap: Record<
     </h2>
 
     <h2 class="text-3xl md:text-4xl text-center font-bold mb-4">
-      Was uns einzigartig macht
+      Kinderkarussell Simon Jenke
     </h2>
 
     <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-      Schwerlastlogistik.eu bietet maßgeschneiderte Lösungen für den sicheren und effizienten Transport schwerer Lasten. Unsere modernen Technologien und unser erfahrenes Team garantieren höchste Qualität und Zuverlässigkeit.
+      Wir sind ein Schaustellerbetrieb mit Herz und Leidenschaft! Unser Kinderkarussell ist die perfekte Attraktion für Volksfeste, Stadtfeste, Vereinsfeiern oder private Veranstaltungen. Mit seinem farbenfrohen Design und moderner Beleuchtung sorgt es für strahlende Kinderaugen. Sie können unser Karussell auch mieten – für eine unvergessliche Zeit voller Spaß und Freude!
     </h3>
 
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

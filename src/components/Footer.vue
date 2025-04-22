@@ -21,7 +21,7 @@ import Separator from "./ui/separator/Separator.vue";
                 class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white"
             />
 
-            <h3 class="text-2xl">Schwerlastlogistik.eu</h3>
+            <h3 class="text-2xl">Schausteller-jenke.de</h3>
           </a>
         </div>
 
@@ -29,7 +29,7 @@ import Separator from "./ui/separator/Separator.vue";
           <h3 class="font-bold text-lg">Help</h3>
           <div>
             <a
-                href="#contact"
+                href="/#contact"
                 class="opacity-60 hover:opacity-100"
             >
               Contact Us
@@ -38,7 +38,7 @@ import Separator from "./ui/separator/Separator.vue";
 
           <div>
             <a
-                href="#faq"
+                href="/#faq"
                 class="opacity-60 hover:opacity-100"
             >
               FAQ
@@ -48,23 +48,7 @@ import Separator from "./ui/separator/Separator.vue";
 
         <div class="flex flex-col gap-2">
           <h3 class="font-bold text-lg">Socials</h3>
-          <div>
-            <a
-                href="https://www.tiktok.com/@mangosnock"
-                class="opacity-60 hover:opacity-100"
-            >
-              Tiktok
-            </a>
-          </div>
 
-          <div>
-            <a
-                href="https://dc.schwerlastlogistik.eu"
-                class="opacity-60 hover:opacity-100"
-            >
-              Discord
-            </a>
-          </div>
         </div>
 
         <div class="flex flex-col gap-2">

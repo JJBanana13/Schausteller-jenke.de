@@ -11,14 +11,13 @@
         Verantwortlich für die Verarbeitung Ihrer personenbezogenen Daten ist:
       </p>
       <p>
-        <strong>JJBanana13 - Justin Jenke</strong><br />
-        c/o Online-Impressum.de<br />
-        Europaring 90<br />
-        53757 Sankt Augustin
+        <strong>Simon Jenke</strong><br />
+        Beethovenstrasse 13<br />
+        79787 Lauchringen
       </p>
       <p>
         E-Mail: <a href="mailto:contact@jjbanana13.wtf">contact@jjbanana13.wtf</a><br />
-        Website: <a href="https://schwerlastlogistik.eu" target="_blank">https://schwerlastlogistik.eu</a>
+        Website: <a href="https://schausteller-jenke.de" target="_blank">schausteller-jenke.de</a>
       </p>
 
       <h2>2) Erfassung personenbezogener Daten</h2>
@@ -95,10 +94,9 @@
         Für Fragen oder Bedenken bezüglich des Datenschutzes können Sie uns jederzeit unter folgender Adresse kontaktieren:
       </p>
       <p>
-        <strong>JJBanana13 - Justin Jenke</strong><br />
-        c/o Online-Impressum.de<br />
-        Europaring 90<br />
-        53757 Sankt Augustin
+        <strong>Simon Jenke</strong><br />
+        Beethovenstrasse 13<br />
+        79787 Lauchringen
       </p>
       <p>
         E-Mail: <a href="mailto:contact@jjbanana13.wtf">contact@jjbanana13.wtf</a>

@@ -38,7 +38,7 @@ const handleSubmit = () => {
   const { firstName, lastName, email, subject, message } = contactForm;
   console.log(contactForm);
 
-  const mailToLink = `mailto:contact@schwerlastlogistik.eu?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
+  const mailToLink = `mailto:contact@jjbanana13.wtf?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
 
   window.location.href = mailToLink;
 };
@@ -111,14 +111,12 @@ const handleSubmit = () => {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
-                    <SelectItem value="Bewerbung">
-                      Bewerbung
+                    <SelectItem value="Mieten">
+                      Mieten
                     </SelectItem>
                     <SelectItem value="Anfrage">
                       Anfrage
                     </SelectItem>
-                    <SelectItem value="Presse"> Presse </SelectItem>
-                    <SelectItem value="Auftrag"> Auftrag </SelectItem>
                     <SelectItem value="Website Administration">
                       Website Administration
                     </SelectItem>
