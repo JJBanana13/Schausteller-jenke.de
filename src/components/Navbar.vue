@@ -24,7 +24,7 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
 import { ChevronsDown, Menu } from "lucide-vue-next";
-import kofiicon from "@/icons/kofiicon.vue";
+import kofiicon from "@/icons/KofiIcon.vue";
 import ToggleTheme from "./ToggleTheme.vue";
 
 interface RouteProps {

@@ -7,14 +7,14 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 
-import Linkedinicon from "@/icons/linkedinicon.vue";
-import githubicon from "@/icons/githubicon.vue";
-import xicon from "@/icons/xicon.vue";
-import youtubeicon from "@/icons/youtubeicon.vue";
-import Kofiicon from "@/icons/kofiicon.vue";
-import Tiktokicon from "@/icons/tiktokicon.vue";
-import twitchicon from "@/icons/twitchicon.vue";
-import whatsappicon from "@/icons/Whatsappicon.vue";
+import Linkedinicon from "@/icons/LinkedInIcon.vue";
+import githubicon from "@/icons/GithubIcon.vue";
+import xicon from "@/icons/XIcon.vue";
+import youtubeicon from "@/icons/YoutubeIcon.vue";
+import Kofiicon from "@/icons/KofiIcon.vue";
+import Tiktokicon from "@/icons/TiktokIcon.vue";
+import twitchicon from "@/icons/TwitchIcon.vue";
+import whatsappicon from "@/icons/WhatsappIcon.vue";
 
 
 interface TeamProps {
