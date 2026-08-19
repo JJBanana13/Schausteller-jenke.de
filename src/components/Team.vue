@@ -32,7 +32,7 @@ interface SocialNetworkProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://data-node1.jjbanana13.wtf/logo/pfp/JJBanana13.webp",
+    imageUrl: "https://cdn.jjbanana13.wtf/JJBanana13.WEBP",
     firstName: "JJBanana",
     lastName: "13",
     positions: ["Website Developer"],
@@ -61,7 +61,7 @@ const teamList: TeamProps[] = [
   },
   {
     imageUrl:
-      "https://data-node1.jjbanana13.wtf/logo/pfp/simon.webp",
+      "https://cdn.jjbanana13.wtf/Simon-website/Simon-Bild.webp",
     firstName: "Simon",
     lastName: "Jenke",
     positions: ["Inhaber"],
